@@ -3,6 +3,8 @@ import pandas as pd
 import re
 import regex
 import json
+import ast 
+
 
 
 pattern = regex.compile(r'\{(?:[^{}]|(?R))*\}')
@@ -14,11 +16,5 @@ print(len(lines))
 
 patterns = pattern.findall(lines)
 for pattern in patterns:
-    json_dict= json.loads(pattern)
+    pattern = ast.literal_eval(pattern) 
     print(pattern)
-#for line in lines:
-#data.append(myfile.read())
-
-#df = pd.DataFrame(data)
-
-#print(df)

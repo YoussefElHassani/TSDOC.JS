@@ -1,4 +1,4 @@
-[2020-11-10T08:03:59.253] [INFO] infoLogger - {
+[2020-11-11T19:18:14.996] [INFO] infoLogger - {
   file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
   wrappedExceptionVal: {
     exception: Error: Cannot find module 'pako'
@@ -20,7 +20,29 @@
   },
   flag: 'Error'
 }
-[2020-11-10T08:03:59.615] [INFO] infoLogger - {
+[2020-11-11T19:18:15.358] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'pako'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi_.js:19:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:15.789] [INFO] infoLogger - {
   file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
   wrappedExceptionVal: {
     exception: Error: Cannot find module 'pako'
@@ -42,7 +64,7 @@
   },
   flag: 'Error'
 }
-[2020-11-10T08:03:59.787] [INFO] infoLogger - {
+[2020-11-11T19:18:15.988] [INFO] infoLogger - {
   file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
   wrappedExceptionVal: {
     exception: Error: Cannot find module 'pako'
@@ -64,7 +86,7 @@
   },
   flag: 'Error'
 }
-[2020-11-10T08:03:59.969] [INFO] infoLogger - {
+[2020-11-11T19:18:16.169] [INFO] infoLogger - {
   file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
   wrappedExceptionVal: {
     exception: Error: Cannot find module 'pako'
@@ -86,7 +108,7 @@
   },
   flag: 'Error'
 }
-[2020-11-10T08:04:00.138] [INFO] infoLogger - {
+[2020-11-11T19:18:16.372] [INFO] infoLogger - {
   file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
   wrappedExceptionVal: {
     exception: Error: Cannot find module 'pako'
@@ -108,7 +130,7 @@
   },
   flag: 'Error'
 }
-[2020-11-10T08:04:00.328] [INFO] infoLogger - {
+[2020-11-11T19:18:16.584] [INFO] infoLogger - {
   file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
   wrappedExceptionVal: {
     exception: Error: Cannot find module 'pako'
@@ -130,7 +152,29 @@
   },
   flag: 'Error'
 }
-[2020-11-10T08:04:00.518] [INFO] infoLogger - {
+[2020-11-11T19:18:16.851] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'pako'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi_.js:18:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:17.078] [INFO] infoLogger - {
   file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
   wrappedExceptionVal: {
     exception: Error: Cannot find module 'pako'
@@ -152,7 +196,7 @@
   },
   flag: 'Error'
 }
-[2020-11-10T08:04:00.713] [INFO] infoLogger - {
+[2020-11-11T19:18:17.314] [INFO] infoLogger - {
   file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
   wrappedExceptionVal: {
     exception: Error: Cannot find module 'pako'
@@ -166,6 +210,719 @@
         at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
         at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
         at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi_.js:13:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:17.575] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1.js:8:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:17.748] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1_jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1_jalangi__jalangi_.js:10:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:17.917] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1_jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1_jalangi__jalangi__jalangi_.js:11:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:18.165] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17.js:57:136)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:18.332] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9_jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9_jalangi__jalangi__jalangi_.js:11:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:18.527] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1_jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1_jalangi_.js:9:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:18.698] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17_jalangi__jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17_jalangi__jalangi__jalangi__jalangi__jalangi_.js:62:136)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:18.861] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9_jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9_jalangi__jalangi__jalangi__jalangi_.js:12:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:19.075] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17_jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17_jalangi__jalangi__jalangi__jalangi_.js:61:136)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:19.237] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17_jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17_jalangi_.js:58:136)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:19.426] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9.js:8:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:19.591] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17_jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17_jalangi__jalangi__jalangi_.js:60:136)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:19.788] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17_jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_17_jalangi__jalangi_.js:59:136)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:19.955] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9_jalangi__jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9_jalangi__jalangi__jalangi__jalangi__jalangi_.js:13:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:20.138] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9_jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9_jalangi_.js:9:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:20.317] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1_jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_1_jalangi__jalangi__jalangi__jalangi_.js:12:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:20.486] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'prompt-sync'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9_jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/prompt-sync/prompt-sync_9_jalangi__jalangi_.js:10:107)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:20.693] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/streaming-json-stringify/streaming-json-stringify_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'streaming-json-stringify'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/streaming-json-stringify/streaming-json-stringify_1.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/streaming-json-stringify/streaming-json-stringify_1.js:7:104)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:20.871] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/streaming-json-stringify/streaming-json-stringify_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'streaming-json-stringify'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/streaming-json-stringify/streaming-json-stringify_1_jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/streaming-json-stringify/streaming-json-stringify_1_jalangi_.js:8:104)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:21.079] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/streaming-json-stringify/streaming-json-stringify_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'streaming-json-stringify'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/streaming-json-stringify/streaming-json-stringify_1_jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/streaming-json-stringify/streaming-json-stringify_1_jalangi__jalangi_.js:9:104)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:21.242] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/bson/bson_1.js',
+  wrappedExceptionVal: {
+    exception: ReferenceError: Cannot access 'BSON' before initialization
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/bson/bson_1_jalangi__jalangi_.js:8:31)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12)
+        at Module.load (node:internal/modules/cjs/loader:948:32)
+        at Function.Module._load (node:internal/modules/cjs/loader:789:14)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:72:12)
+        at startProgram (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:121:19)
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:127:5)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (node:internal/modules/cjs/loader:1112:10)
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:21.686] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/bson/bson_1.js',
+  wrappedExceptionVal: {
+    exception: ReferenceError: Cannot access 'BSON' before initialization
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/bson/bson_1.js:6:31)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12)
+        at Module.load (node:internal/modules/cjs/loader:948:32)
+        at Function.Module._load (node:internal/modules/cjs/loader:789:14)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:72:12)
+        at startProgram (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:121:19)
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:127:5)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (node:internal/modules/cjs/loader:1112:10)
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:22.079] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/bson/bson_1.js',
+  wrappedExceptionVal: {
+    exception: ReferenceError: Cannot access 'BSON' before initialization
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/bson/bson_1_jalangi_.js:7:31)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12)
+        at Module.load (node:internal/modules/cjs/loader:948:32)
+        at Function.Module._load (node:internal/modules/cjs/loader:789:14)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:72:12)
+        at startProgram (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:121:19)
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:127:5)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (node:internal/modules/cjs/loader:1112:10)
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:22.313] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/slug/slug_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'slug'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/slug/slug_1.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/slug/slug_1.js:8:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:22.501] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/slug/slug_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'slug'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/slug/slug_1_jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/slug/slug_1_jalangi__jalangi_.js:10:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:22.709] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/slug/slug_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'slug'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/slug/slug_1_jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/slug/slug_1_jalangi_.js:9:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:22.884] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/jest-matcher-utils/jest-matcher-utils_7.js',
+  wrappedExceptionVal: {
+    exception: ReferenceError: Cannot access 'sum' before initialization
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/jest-matcher-utils/jest-matcher-utils_7_jalangi_.js:7:30)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12)
+        at Module.load (node:internal/modules/cjs/loader:948:32)
+        at Function.Module._load (node:internal/modules/cjs/loader:789:14)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:72:12)
+        at startProgram (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:121:19)
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:127:5)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (node:internal/modules/cjs/loader:1112:10)
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:23.099] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/jest-matcher-utils/jest-matcher-utils_7.js',
+  wrappedExceptionVal: {
+    exception: ReferenceError: Cannot access 'sum' before initialization
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/jest-matcher-utils/jest-matcher-utils_7.js:6:30)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12)
+        at Module.load (node:internal/modules/cjs/loader:948:32)
+        at Function.Module._load (node:internal/modules/cjs/loader:789:14)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:72:12)
+        at startProgram (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:121:19)
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:127:5)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (node:internal/modules/cjs/loader:1112:10)
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:23.340] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lzma-native/lzma-native_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'lzma-native'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lzma-native/lzma-native_1.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lzma-native/lzma-native_1.js:10:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:23.527] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lzma-native/lzma-native_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'lzma-native'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lzma-native/lzma-native_1_jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lzma-native/lzma-native_1_jalangi_.js:11:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:23.887] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/gulp-gh-pages/gulp-gh-pages_7.js',
+  wrappedExceptionVal: {
+    exception: ReferenceError: Cannot access 'ghPages' before initialization
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/gulp-gh-pages/gulp-gh-pages_7_jalangi_.js:7:33)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12)
+        at Module.load (node:internal/modules/cjs/loader:948:32)
+        at Function.Module._load (node:internal/modules/cjs/loader:789:14)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:72:12)
+        at startProgram (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:121:19)
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:127:5)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (node:internal/modules/cjs/loader:1112:10)
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:24.077] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/gulp-gh-pages/gulp-gh-pages_7.js',
+  wrappedExceptionVal: {
+    exception: ReferenceError: Cannot access 'ghPages' before initialization
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/gulp-gh-pages/gulp-gh-pages_7.js:6:33)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12)
+        at Module.load (node:internal/modules/cjs/loader:948:32)
+        at Function.Module._load (node:internal/modules/cjs/loader:789:14)
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:72:12)
+        at startProgram (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:121:19)
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:127:5)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (node:internal/modules/cjs/loader:1112:10)
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:24.265] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lodash.bindkey/lodash.bindkey_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'lodash'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lodash.bindkey/lodash.bindkey_1_jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lodash.bindkey/lodash.bindkey_1_jalangi_.js:13:88)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-11T19:18:24.512] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lodash.bindkey/lodash.bindkey_1.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'lodash'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lodash.bindkey/lodash.bindkey_1.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/lodash.bindkey/lodash.bindkey_1.js:12:88)
         at Module._compile (node:internal/modules/cjs/loader:1083:30)
         at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
       code: 'MODULE_NOT_FOUND',
