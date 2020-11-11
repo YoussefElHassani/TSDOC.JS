@@ -2,7 +2,7 @@
 const log4js = require("log4js");
 // Configuring Logger
 log4js.configure({
-  appenders: {  infoLogger:{ type: "fileSync", filename: "./log/info.log" }},
+  appenders: {  infoLogger:{ type: "fileSync", filename: "./log/info.log"}},
   categories: { default: { appenders: ["infoLogger"], level: "info" } }
 });
 // Calling Logger

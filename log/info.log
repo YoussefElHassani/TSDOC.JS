@@ -1,0 +1,176 @@
+[2020-11-10T08:03:59.253] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'pako'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi__jalangi__jalangi__jalangi_.js:17:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-10T08:03:59.615] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'pako'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi_.js:12:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-10T08:03:59.787] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'pako'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi_.js:11:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-10T08:03:59.969] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'pako'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi__jalangi__jalangi_.js:16:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-10T08:04:00.138] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'pako'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi__jalangi_.js:15:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-10T08:04:00.328] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'pako'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js:10:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-10T08:04:00.518] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'pako'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi__jalangi_.js:14:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
+[2020-11-10T08:04:00.713] [INFO] infoLogger - {
+  file: '/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38.js',
+  wrappedExceptionVal: {
+    exception: Error: Cannot find module 'pako'
+    Require stack:
+    - /Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi_.js
+        at Function.Module._resolveFilename (node:internal/modules/cjs/loader:900:15)
+        at Function.Module._load (node:internal/modules/cjs/loader:745:27)
+        at Module.require (node:internal/modules/cjs/loader:972:19)
+        at require (node:internal/modules/cjs/helpers:88:18)
+        at callFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:196:51)
+        at invokeFun (/Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:217:22)
+        at /Users/youssef/Documents/GitHub/jalangi2/src/js/runtime/analysis.js:233:41
+        at Object.<anonymous> (/Users/youssef/Documents/GitHub/dts-generate-results/results/4_extract-code/code/pako/pako_38_jalangi__jalangi__jalangi_.js:13:94)
+        at Module._compile (node:internal/modules/cjs/loader:1083:30)
+        at Object.Module._extensions..js (/Users/youssef/Documents/GitHub/jalangi2/src/js/commands/jalangi.js:109:12) {
+      code: 'MODULE_NOT_FOUND',
+      requireStack: [Array]
+    }
+  },
+  flag: 'Error'
+}
