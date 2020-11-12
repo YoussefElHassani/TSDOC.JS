@@ -1,5 +1,5 @@
 x1 = 0
-let x2 = 1
+
 function sum(a, b){
     return a+b
 }

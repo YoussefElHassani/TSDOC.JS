@@ -1,5 +1,4 @@
-node_modules/
-package-lock.json
-package.json
 *.json
 *.pyc
+*/**/*_jalangi_.js
+*/**/*_jalangi_.json

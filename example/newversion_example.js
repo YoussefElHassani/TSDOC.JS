@@ -1,8 +1,8 @@
-// The isArray() method checks whether an object is an array.
+let x1 = 0
+let x2 = 1
+function sum(a, b){
+    return a+b
+}
 
-
-var obj1 = { a: 1, b: 2 }
-var obj2 = { a: 2, c: 3, d: 4}
-var obj3 = Object.assign(obj1, obj2)
-
-console.log(obj3.a)
+sum_result = sum(x1,x2);
+console.log("The sum is: "+ sum_result);
