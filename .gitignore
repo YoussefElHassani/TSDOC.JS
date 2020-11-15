@@ -2,3 +2,5 @@
 *.pyc
 */**/*_jalangi_.js
 */**/*_jalangi_.json
+node_modules/
+log/
