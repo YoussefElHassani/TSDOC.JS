@@ -3,9 +3,10 @@
 */**/*_jalangi_.js
 */**/*_jalangi_.json
 node_modules/
-log/
 i_love_qr.svg
 log/info.log
 path/to/datafile
 test.msp
-*.pyc
+*.xml
+*.log
+
