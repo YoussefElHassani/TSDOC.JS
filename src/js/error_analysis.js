@@ -36,7 +36,9 @@ const infoLogger = log4js.getLogger("infoLogger");
             filename = filename.replace("(","");
             // Log filename and the captured exception 
             if(wrappedExceptionVal === undefined) {
+                if(!filename.includes("node_modules")){
                 infoLogger.info({'file': filename, 'wrappedExceptionVal': null, 'flag': "Success"})
+                }
             } else{
                 infoLogger.info({'file': filename, 'wrappedExceptionVal': wrappedExceptionVal, 'flag': "Error"})
             }

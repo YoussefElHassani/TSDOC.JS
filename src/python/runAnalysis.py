@@ -15,16 +15,23 @@ jalangi_path = "../jalangi2/src/js/commands/jalangi.js"
 analysis_path = "src/js/error_analysis.js"
 
 # source files root folder
-root = '../dts-generate-results/results/4_extract-code/code/'
+root = '../dts-generate-results/results/4_extract-code/code'
 pattern = "*.js"
 
+print("Fetching code examples...")
 all_scripts_path = []
 for path, subdirs, files in os.walk(root):
     for name in files:
         if fnmatch(name, pattern):
             all_scripts_path.append(os.path.join(path, name))
+print("Code examples fetched!")
 
+# Removing files that contain "jalangi"
+filtered_paths = [i for i in all_scripts_path if 'node_modules' not in i]
+filtered_paths = [i for i in filtered_paths if 'jalangi' not in i]
+print("Filtering - DONE")
 
-for source_path in all_scripts_path:
-    command = "node --no-deprecation " + jalangi_path + " --inlineIID --inlineSource --analysis " + analysis_path + " "+ source_path
+# Running jalangi
+for source_path in filtered_paths:
+    command = "node --no-deprecation " + jalangi_path + " --inlineIID --inlineSource --analysis " + analysis_path + " " + source_path
     ShCommand(command, logger, "Shell_Runner", 10).run()
