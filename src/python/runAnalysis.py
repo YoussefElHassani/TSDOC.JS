@@ -16,6 +16,7 @@ analysis_path = "src/js/error_analysis.js"
 
 # source files root folder
 root = '../dts-generate-results/results/4_extract-code/code'
+#root = '../dts-generate-results/results/test'
 pattern = "*.js"
 
 print("Fetching code examples...")

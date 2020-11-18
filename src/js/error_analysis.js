@@ -1,12 +1,18 @@
 // Importing Libraries
 const log4js = require("log4js");
+const {serializeError, deserializeError} = require('serialize-error');
+
+// adding layout
+log4js.addLayout('json', function(config) {
+    return function(logEvent) { return JSON.stringify(logEvent) + config.separator; }
+  });
 // Configuring Logger
 log4js.configure({
-  appenders: {  infoLogger:{ type: "fileSync", filename: "./log/info.log"}},
+  appenders: {  infoLogger:{ type: "fileSync", layout: { type: 'json', separator: ',' } ,filename: "./log/info.log"}},
   categories: { default: { appenders: ["infoLogger"], level: "info" } }
 });
 // Calling Logger
-const infoLogger = log4js.getLogger("infoLogger");
+const infoLogger = log4js.getLogger("infoLogger'");
 
 
 
@@ -38,10 +44,14 @@ const infoLogger = log4js.getLogger("infoLogger");
             if(wrappedExceptionVal === undefined) {
                 if(!filename.includes("node_modules")){
                 infoLogger.info({'file': filename, 'wrappedExceptionVal': null, 'flag': "Success"})
+                log4js.shutdown(() => {});
                 }
             } else{
-                infoLogger.info({'file': filename, 'wrappedExceptionVal': wrappedExceptionVal, 'flag': "Error"})
+                error = serializeError(wrappedExceptionVal)
+                infoLogger.info({'file': filename, 'wrappedExceptionVal': JSON.stringify(error), 'flag': "Error"})
+                log4js.shutdown(() => {});
             }
+
         }; 
 
     }
