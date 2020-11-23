@@ -7,7 +7,7 @@ from itertools import chain
 from collections import Counter
 from nltk.tokenize import wordpunct_tokenize
 
-path = './log/info.log'
+path = './log/info_babel.log'
 
 # Reading files
 data = []
@@ -54,7 +54,7 @@ for record in data:
         success_count += 1
 
 # Write error dict to a file
-with open('./log/log_analysis.json', 'w') as fp:
+with open('./log/log_analysis_babel.json', 'w') as fp:
     json.dump(error_dict, fp, indent=4)
     
 print("Total number of errors: " + str(error_count))
@@ -72,5 +72,5 @@ for key in error_messages:
     error_messages_tokens[key] = error_tokens
 
 # Write error messages token dict to a file
-with open('./log/log_analysis_tokens.json', 'w') as fp:
+with open('./log/log_analysis_tokens_babel.json', 'w') as fp:
     json.dump(error_messages_tokens, fp, indent=4)

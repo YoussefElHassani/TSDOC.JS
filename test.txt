@@ -1,0 +1,450 @@
+Total number of errors: 2502
+Total number of successes: 823
+The path "/example" could not be resolved
+Cannot read property 'length' of undefined
+The "id" argument must be of type string. Received an instance of Object
+Cannot read property 'length' of undefined
+Cannot read property 'on' of undefined
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+The "id" argument must be of type string. Received an instance of Array
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'swing' of undefined
+Cannot read property 'toString' of undefined
+ExprGen[$param.type] is not a function
+Cannot read property 'name' of undefined
+The "id" argument must be of type string. Received an instance of Array
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Cannot read property 'name' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'name' of undefined
+The "id" argument must be of type string. Received an instance of Array
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+Cannot read property 'toString' of undefined
+The "id" argument must be of type string. Received an instance of Object
+The "id" argument must be of type string. Received an instance of Object
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+The "id" argument must be of type string. Received an instance of Array
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'bind' of undefined
+Cannot read property 'bind' of undefined
+Cannot read property 'bind' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+ExprGen[$param.type] is not a function
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Cannot read property 'now' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Function.prototype.apply was called on #<Object>, which is a object and not a function
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+Cannot read property 'name' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'toString' of undefined
+ExprGen[$param.type] is not a function
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'name' of undefined
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+The "id" argument must be of type string. Received an instance of Array
+Function.prototype.apply was called on #<Object>, which is a object and not a function
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Cannot read property 'toString' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'indexOf' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'length' of undefined
+ExprGen[$param.type] is not a function
+Cannot read property 'length' of undefined
+ExprGen[$param.type] is not a function
+Cannot read property 'toString' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+Constructor is not a constructor
+Constructor is not a constructor
+Constructor is not a constructor
+Constructor is not a constructor
+Constructor is not a constructor
+Function.prototype.apply was called on #<Object>, which is a object and not a function
+ExprGen[$param.type] is not a function
+Cannot read property 'toString' of undefined
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Function.prototype.apply was called on #<Object>, which is a object and not a function
+Cannot read property 'name' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'eql' of undefined
+Cannot read property 'eql' of undefined
+Cannot read property 'toString' of undefined
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Cannot read property 'slice' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'length' of undefined
+The "id" argument must be of type string. Received an instance of Array
+Cannot read property 'toString' of undefined
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+ExprGen[$param.type] is not a function
+The "id" argument must be of type string. Received an instance of Object
+Cannot read property 'length' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+ExprGen[$param.type] is not a function
+Constructor is not a constructor
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'length' of undefined
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+Cannot read property 'length' of undefined
+Cannot read property 'equal' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+The "id" argument must be of type string. Received an instance of Array
+The "id" argument must be of type string. Received an instance of Array
+Constructor is not a constructor
+Cannot read property 'name' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'toString' of undefined
+ExprGen[$param.type] is not a function
+The "id" argument must be of type string. Received an instance of Array
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+Cannot set property 'readmore' of undefined
+Cannot read property 'toString' of undefined
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Cannot read property 'name' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'name' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'geocode' of undefined
+ExprGen[$param.type] is not a function
+ExprGen[$param.type] is not a function
+The "path" argument must be of type string. Received an instance of Array
+The "id" argument must be of type string. Received an instance of Object
+Cannot read property 'toString' of undefined
+The "id" argument must be of type string. Received an instance of Array
+The "id" argument must be of type string. Received an instance of Array
+Cannot read property 'length' of undefined
+Cannot read property 'length' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+ExprGen[$param.type] is not a function
+Cannot read property 'toString' of undefined
+The "id" argument must be of type string. Received an instance of Array
+Cannot read property 'origin' of undefined
+Cannot read property 'origin' of undefined
+Cannot read property 'origin' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Function.prototype.apply was called on undefined, which is a undefined and not a function
+Cannot read property 'length' of undefined
+Cannot read property 'write' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Cannot read property 'toString' of undefined
+Not Found
+Required
+Not Found
+Template './templates/myTemplate.html' not found at './templates/myTemplate.html'. Use path relative to '/Users/youssef/Documents/GitHub/TSDOC.JS'.
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+'import' and 'export' may appear only with 'sourceType: module' (3:0)
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (44:10)
+Unexpected token (44:10)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (94:6)
+Unexpected token (94:6)
+Unexpected eval or arguments in strict mode
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (26:10)
+'import' and 'export' may appear only with 'sourceType: module' (1:0)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (3:0)
+Invalid destructuring assignment target
+Unexpected token (37:27)
+'return' outside of function (9:2)
+Invalid destructuring assignment target
+'return' outside of function (40:8)
+Unexpected token (35:27)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (222:12)
+Unexpected token (222:12)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (19:23)
+Unexpected token (19:23)
+Unexpected token (19:23)
+Unexpected token (19:23)
+'import' and 'export' may appear only with 'sourceType: module' (3:0)
+'import' and 'export' may appear only with 'sourceType: module' (1:0)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (24:2)
+Identifier 'validate' has already been declared
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (1:0)
+Unexpected token (3:0)
+Unexpected token (62:6)
+Unexpected token (28:35)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Invalid destructuring assignment target
+Unexpected token  in JSON at position 8
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Invalid destructuring assignment target
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Invalid destructuring assignment target
+Unexpected token (60:12)
+Unexpected token (12:6)
+Unexpected token (60:12)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (41:29)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Identifier 'validate' has already been declared
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+'return' outside of function (20:2)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (55:38)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (14:11)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (134:50)
+Unexpected token (134:50)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected token (103:8)
+Identifier 'validate' has already been declared
+Unexpected token (29:37)
+Identifier 'validate' has already been declared
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Unexpected eval or arguments in strict mode
+Identifier 'validate' has already been declared
+Invalid destructuring assignment target
+Unexpected token (44:51)
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Invalid destructuring assignment target
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Identifier 'validate' has already been declared
+Invalid destructuring assignment target
