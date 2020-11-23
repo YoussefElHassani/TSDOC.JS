@@ -64,6 +64,8 @@ print("Total number of successes: " + str(success_count))
 error_messages_tokens = {}
 for key in error_messages:
     messages = error_messages[key]
+    for message in messages:
+        print(message)
     array = (Counter(chain.from_iterable(wordpunct_tokenize(x) for x in messages)).most_common(10))
     error_tokens = {}
     for word, count in array:
