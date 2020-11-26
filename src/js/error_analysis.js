@@ -42,14 +42,16 @@ const infoLogger = log4js.getLogger("infoLogger'");
             filename = filename.replace("(","");
             // Log filename and the captured exception 
             if(wrappedExceptionVal === undefined) {
-                if(!filename.includes("node_modules")){
-                infoLogger.info({'file': filename, 'wrappedExceptionVal': null, 'flag': "Success"})
-                log4js.shutdown(() => {});
+                    if(!filename.includes("node_modules")){
+                    infoLogger.info({'file': filename, 'wrappedExceptionVal': null, 'flag': "Success"})
+                    log4js.shutdown(() => {});
                 }
             } else{
-                error = serializeError(wrappedExceptionVal)
-                infoLogger.info({'file': filename, 'wrappedExceptionVal': JSON.stringify(error), 'flag': "Error"})
-                log4js.shutdown(() => {});
+                if(!filename.includes("node_modules")){
+                    error = serializeError(wrappedExceptionVal)
+                    infoLogger.info({'file': filename, 'wrappedExceptionVal': JSON.stringify(error), 'flag': "Error"})
+                    log4js.shutdown(() => {});
+                }
             }
 
         }; 

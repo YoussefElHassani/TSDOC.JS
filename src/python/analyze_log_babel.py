@@ -5,7 +5,6 @@ import ast
 
 from itertools import chain
 from collections import Counter
-from nltk.tokenize import wordpunct_tokenize
 
 path = './log/info_babel.log'
 
@@ -26,6 +25,10 @@ error_messages = {}
 
 # Printing error name
 for record in data:
+    file_path = record["data"][0]["file"]
+    if 'node_modules' in file_path:
+        continue
+
     exception = record["data"][0]["wrappedExceptionVal"]
     flag = record["data"][0]["flag"]
     if flag == "Error":
@@ -59,18 +62,3 @@ with open('./log/log_analysis_babel.json', 'w') as fp:
     
 print("Total number of errors: " + str(error_count))
 print("Total number of successes: " + str(success_count))
-
-# Finding most common words per error code 
-error_messages_tokens = {}
-for key in error_messages:
-    messages = error_messages[key]
-    array = (Counter(chain.from_iterable(wordpunct_tokenize(x) for x in messages)).most_common(10))
-    error_tokens = {}
-    for word, count in array:
-        error_tokens[word] = count
-    
-    error_messages_tokens[key] = error_tokens
-
-# Write error messages token dict to a file
-with open('./log/log_analysis_tokens_babel.json', 'w') as fp:
-    json.dump(error_messages_tokens, fp, indent=4)
