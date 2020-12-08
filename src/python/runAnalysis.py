@@ -36,3 +36,5 @@ print("Filtering - DONE")
 for source_path in filtered_paths:
     command = "node --no-deprecation " + jalangi_path + " --inlineIID --inlineSource --analysis " + analysis_path + " " + source_path
     ShCommand(command, logger, "Shell_Runner", 10).run()
+
+# node --no-deprecation ../jalangi2/src/js/commands/jalangi.js --inlineIID --inlineSource --analysis src/js/error_analysis.js " + source_path
