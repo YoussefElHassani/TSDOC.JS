@@ -66,16 +66,21 @@ def modules_error_handler(log: dict):
             a.add(module_name)
  
     for item in a:
-        print(item)
         if item[0] == ".":
+            # Import all js files in the same directory
+            # Reexcute code
             #print(item)
             continue
         
         elif fnmatch(item, "*.js"):
+            # Import all js files in the same directory
+            # Reexcute code
+            #print(item)
             continue
         
         elif fnmatch(item, "*/*/*"):
-            #print(item)
+            # Install name 
+            print(item)
             continue
         
 # extract single names
