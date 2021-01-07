@@ -12,7 +12,7 @@ logger = logging.getLogger()
 
 # including Jalangi input
 jalangi_path = "../jalangi2/src/js/commands/jalangi.js"
-analysis_path = "src/js/error_analysis.js"
+analysis_path = "src/js/error_analysis_babel.js"
 
 # source files root folder
 root = '../dts-generate-results/results/4_extract-code/code'

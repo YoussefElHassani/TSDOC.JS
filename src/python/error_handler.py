@@ -1,9 +1,15 @@
+from fnmatch import fnmatch
+from shell_command import ShCommand 
+
+import logging
+import sys
+import os
 import json
 import re
 
-from fnmatch import fnmatch
-
-
+# Configuring logger
+logging.basicConfig()
+logger = logging.getLogger()
 # Categorize errors by type
 
 # get file names from first file
@@ -85,9 +91,15 @@ def modules_error_handler(log: dict):
             #print(item)
             continue
         else:
-            print(item)
+            
         
+def install_npm_packages(packages_dict):
 
+    for suffix, package in packages_dict.items():
+        # Creating an empty npm-modules sub directory
+
+        npm_install_cmd = "npm install --prefix " + path + "/" + package + " " + package
+        ShCommand(npm_install_cmd, logger, "npm-installer", 3600).run()
 
 def reference_errors_handler(log: dict):
     print(hi)
