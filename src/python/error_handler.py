@@ -52,6 +52,7 @@ def modules_error_handler(log: dict):
     Args:
         log (dict): [description]
     """
+    path = '../dts-generate-results/results/4_extract-code/code'
     # Defining modules not found errors
     modules_errors ={}
     
@@ -63,7 +64,8 @@ def modules_error_handler(log: dict):
             # modules_errors[file_name]
             message = error['message']
             module_name = re.search(r'''(?<=')\s*[^']+?\s*(?=')''', message).group()
-            a.add(module_name)
+            # First try to download its associated npm package
+
  
     for item in a:
         if item[0] == ".":
@@ -80,10 +82,19 @@ def modules_error_handler(log: dict):
         
         elif fnmatch(item, "*/*/*"):
             # Install name 
-            print(item)
+            #print(item)
             continue
+        else:
+            print(item)
         
+
+
+def reference_errors_handler(log: dict):
+    print(hi)
+
+
 # extract single names
 # extract js files
 # extract other type of files
 modules_error_handler(log)
+print(log)
