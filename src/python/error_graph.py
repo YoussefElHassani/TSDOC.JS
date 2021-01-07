@@ -48,28 +48,26 @@ def construct_graph(error_messages):
     return graph
 
 def draw_graph(graph, title):
-      # Specifying graph layout
-  pos = graphviz_layout(graph, prog='dot')
-  # Setting figure size
-  fig = plt.figure(figsize=(20,20))
-  ax = plt.subplot(111)
-  # Set title
-  ax.set_title(title, fontsize=10)
+    # Specifying graph layout
+    pos = graphviz_layout(graph, prog='dot')
+    # Setting figure size
+    fig = plt.figure(figsize=(50,20))
+    ax = plt.subplot(111)
+    # Set title
+    ax.set_title(title, fontsize=18)
 
-  # extracting weights information
-  edges = graph.edges()
-  weights = [graph[u][v]['weight']/10 for u,v in edges]
+    # extracting weights information
+    edges = graph.edges()
 
-  nx.draw(graph,
+    nx.draw(graph,
           pos=pos,
           with_labels=True,
           node_color='lightgreen',
           ax=ax)
-  plt.savefig(title+".png", format="PNG")
-  plt.show()
-    
-  #edge_labels = nx.get_edge_attributes(graph,'weight')
-  # nx.draw_networkx_edge_labels(graph, pos, edge_labels)
+    edge_labels = nx.get_edge_attributes(graph,'weight')
+    nx.draw_networkx_edge_labels(graph, pos, edge_labels, font_size=14)
+    plt.savefig("fig/" + title + ".png", format="PNG")
+    plt.show()
 
 
 def allocate_variable_layout(before, after, dictionary):
@@ -223,9 +221,28 @@ def preprocess_graph(G, threshold = 3):
     # Add new nodes
     G.add_nodes_from(nodes_to_add_meta)
 
+    leaf_nodes = [x for x in G.nodes() if G.out_degree(x)==0 and G.in_degree(x)> 0]
+    root_nodes = [x for x in G.nodes() if G.out_degree(x) > 0 and G.in_degree(x)==0]
+    
     # Adding weights to the edges
     for before, after in edges_to_add:
-        G.add_edge(before, after, weight = G.nodes[before]["weight"])
+        if before in root_nodes:
+            G.add_edge(before, after, weight = G.nodes[after]["weight"])
+            continue
+        if after in leaf_nodes:
+            G.add_edge(before, after, weight = G.nodes[after]["weight"])
+            continue
+        if G.out_degree(before) < G.in_degree(after):
+            G.add_edge(before, after, weight = G.nodes[before]["weight"])
+            continue
+        if G.out_degree(before) > G.in_degree(after):
+            G.add_edge(before, after, weight = G.nodes[after]["weight"])
+            continue
+        if G.out_degree(before) == G.in_degree(after):
+            minimum_weight = min([G.nodes[before]["weight"], G.nodes[after]["weight"]])
+            G.add_edge(before, after, weight = minimum_weight)
+            continue
+        G.add_edge(before, after, weight = 999999)
     
     # Removing nodes with 0 degress
     remove = [node for node,degree in dict(G.degree()).items() if degree == 0]

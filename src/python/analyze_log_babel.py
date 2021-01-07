@@ -5,7 +5,7 @@ import ast
 
 from itertools import chain
 from collections import Counter
-from error_graph import construct_graph, draw_graph
+from error_graph import construct_graph, draw_graph, preprocess_graph
 
 path = './log/info.log'
 
@@ -108,25 +108,11 @@ with open('./log/log_analysis_babel.json', 'w') as fp:
 print("Total number of errors: " + str(error_count))
 print("Total number of successes: " + str(success_count))
 
-"""
+
 # Draw graphs per error message
 for error_name, messages in error_messages.items():
     graph = construct_graph(messages)
+    graph = preprocess_graph(graph)
     title = error_name
     draw_graph(graph, title)
-"""
-"""
-cnt = 0
-for file_name, file_dict in log.items():
-    if file_dict["flag"] == "Error":
-        exception = file_dict["exception"]
-        exception_dict = json.loads(exception)
-        error_name = exception_dict["exception"]["name"]
-        error_message = exception_dict["exception"]["message"]
-        if error_name == "SyntaxError":
-            print(file_name)
-            print(error_message)
-            print()
-            cnt += 1
-            if cnt > 5:
-                break"""
+    break
