@@ -61,52 +61,53 @@ def modules_error_handler(log: dict):
     path = '../dts-generate-results/results/4_extract-code/code'
     # Defining modules not found errors
     modules_errors ={}
-    
-    a = set()
+    # Packages dictionary
+    packages_dict = {}
     cnt = 0
     for file_name, error in log.items():
-        #a.add(error['error_name'])
+        dir_name = os.path.dirname(file_name)
+
         if error['error_name'] == 'MODULE_NOT_FOUND':
             # modules_errors[file_name]
             message = error['message']
             module_name = re.search(r'''(?<=')\s*[^']+?\s*(?=')''', message).group()
             # First try to download its associated npm package
-
- 
-    for item in a:
-        if item[0] == ".":
-            # Import all js files in the same directory
-            # Reexcute code
-            #print(item)
-            continue
-        
-        elif fnmatch(item, "*.js"):
-            # Import all js files in the same directory
-            # Reexcute code
-            #print(item)
-            continue
-        
-        elif fnmatch(item, "*/*/*"):
-            # Install name 
-            #print(item)
-            continue
-        else:
             
+            if module_name[0] == ".":
+                # Import all js files in the same directory
+                # Reexcute code
+                #print(item)
+                continue
+
+            elif fnmatch(module_name, "*/*/*"):
+                # Keep the first module name
+                target_index = module_name.index('/')
+                module_name = module_name[:target_index]
+                packages_dict[dir_name]= module_name
+                continue
+            
+            elif fnmatch(module_name, "*.js"):
+                # Import all js files in the same directory
+                # Reexcute code
+                print(module_name)
+                continue
+            
+            else:
+                packages_dict[dir_name]= module_name
         
 def install_npm_packages(packages_dict):
 
-    for suffix, package in packages_dict.items():
+    for prefix, package in packages_dict.items():
         # Creating an empty npm-modules sub directory
 
-        npm_install_cmd = "npm install --prefix " + path + "/" + package + " " + package
+        npm_install_cmd = "npm install --prefix " + prefix + " " + package
         ShCommand(npm_install_cmd, logger, "npm-installer", 3600).run()
 
 def reference_errors_handler(log: dict):
-    print(hi)
+    print("hi")
 
 
 # extract single names
 # extract js files
 # extract other type of files
 modules_error_handler(log)
-print(log)
