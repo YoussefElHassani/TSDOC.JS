@@ -58,25 +58,20 @@ def modules_error_handler(log: dict):
     Args:
         log (dict): [description]
     """
-    path = '../dts-generate-results/results/4_extract-code/code'
-    # Defining modules not found errors
-    modules_errors ={}
     # Packages dictionary
     packages_dict = {}
-    cnt = 0
+
     for file_name, error in log.items():
         dir_name = os.path.dirname(file_name)
 
         if error['error_name'] == 'MODULE_NOT_FOUND':
-            # modules_errors[file_name]
             message = error['message']
             module_name = re.search(r'''(?<=')\s*[^']+?\s*(?=')''', message).group()
             # First try to download its associated npm package
             
             if module_name[0] == ".":
-                # Import all js files in the same directory
-                # Reexcute code
-                #print(item)
+                # For now ignore
+                # TODO: add aggregations of files per dir / maybe a code injection?
                 continue
 
             elif fnmatch(module_name, "*/*/*"):
@@ -89,12 +84,13 @@ def modules_error_handler(log: dict):
             elif fnmatch(module_name, "*.js"):
                 # Import all js files in the same directory
                 # Reexcute code
-                print(module_name)
+                packages_dict[dir_name]= module_name
                 continue
             
             else:
                 packages_dict[dir_name]= module_name
-        
+    return packages_dict
+
 def install_npm_packages(packages_dict):
 
     for prefix, package in packages_dict.items():
@@ -104,10 +100,51 @@ def install_npm_packages(packages_dict):
         ShCommand(npm_install_cmd, logger, "npm-installer", 3600).run()
 
 def reference_errors_handler(log: dict):
-    print("hi")
+    """[summary]
+
+    Args:
+        log (dict): [description]
+    """
+    pattern = "*.js"
+    for file_name, error in log.items():
+        dir_name = os.path.dirname(file_name)
+        all_scripts_path = []
+        if error['error_name'] == 'ReferenceError':
+            for path, subdirs, files in os.walk(dir_name):
+                for name in files:
+                    if fnmatch(name, pattern):
+                        all_scripts_path.append(os.path.join(path, name))
+
+            # Removing files that contain "jalangi"
+            filtered_paths = [i for i in all_scripts_path if 'node_modules' not in i]
+            filtered_paths = [i for i in filtered_paths if 'jalangi' not in i]
+  
+            # Open file3 in write mode 
+            with open(file_name, 'w') as outfile:
+            
+                # Iterate through list 
+                for files in filtered_paths: 
+            
+                    # Open each file in read mode 
+                    with open(files) as infile: 
+            
+                        # read the data from file1 and 
+                        # file2 and write it in file3 
+                        outfile.write(infile.read()) 
+            
+                    # Add '\n' to enter data of file2 
+                    # from next line 
+                    outfile.write("\n")
+            infile.close()
+            outfile.close()
+    
+    return packages_dict
+    
 
 
 # extract single names
 # extract js files
 # extract other type of files
-modules_error_handler(log)
+packages_dict = modules_error_handler(log)
+#install_npm_packages(packages_dict)
+reference_errors_handler(log)

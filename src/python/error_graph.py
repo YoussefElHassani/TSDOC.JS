@@ -131,9 +131,8 @@ def update_dictionary(node, variable, dictionary):
     return dictionary
 
 
-def preprocess_graph(G, threshold = 3):
+def preprocess_graph(G, threshold):
     # identify variable nodes in graph
-    threshold = 3
     variable_nodes = set()
     for node, data in G.nodes(data=True):
         if data['weight'] <= threshold:

@@ -108,11 +108,10 @@ with open('./log/log_analysis_babel.json', 'w') as fp:
 print("Total number of errors: " + str(error_count))
 print("Total number of successes: " + str(success_count))
 
-
 # Draw graphs per error message
 for error_name, messages in error_messages.items():
     graph = construct_graph(messages)
-    graph = preprocess_graph(graph)
+    graph = preprocess_graph(graph, threshold = 100)
     title = error_name
     draw_graph(graph, title)
     break
