@@ -71,33 +71,13 @@ def modules_error_handler(log: dict):
             
             if module_name[0] == ".":
                 # For now ignore
+                print(module_name)
+                print(file_name)
                 # TODO: add aggregations of files per dir / maybe a code injection?
                 continue
-
-            elif fnmatch(module_name, "*/*/*"):
-                # Keep the first module name
-                target_index = module_name.index('/')
-                module_name = module_name[:target_index]
-                packages_dict[dir_name]= module_name
-                continue
             
-            elif fnmatch(module_name, "*.js"):
-                # Import all js files in the same directory
-                # Reexcute code
-                packages_dict[dir_name]= module_name
-                continue
-            
-            else:
-                packages_dict[dir_name]= module_name
     return packages_dict
 
-def install_npm_packages(packages_dict):
-
-    for prefix, package in packages_dict.items():
-        # Creating an empty npm-modules sub directory
-
-        npm_install_cmd = "npm install --prefix " + prefix + " " + package
-        ShCommand(npm_install_cmd, logger, "npm-installer", 3600).run()
 
 def reference_errors_handler(log: dict):
     """[summary]
@@ -118,7 +98,7 @@ def reference_errors_handler(log: dict):
             # Removing files that contain "jalangi"
             filtered_paths = [i for i in all_scripts_path if 'node_modules' not in i]
             filtered_paths = [i for i in filtered_paths if 'jalangi' not in i]
-  
+            print(filtered_paths)
             # Open file3 in write mode 
             with open(file_name, 'w') as outfile:
             
@@ -137,9 +117,7 @@ def reference_errors_handler(log: dict):
                     outfile.write("\n")
             infile.close()
             outfile.close()
-    
-    return packages_dict
-    
+        
 
 
 # extract single names
@@ -147,4 +125,4 @@ def reference_errors_handler(log: dict):
 # extract other type of files
 packages_dict = modules_error_handler(log)
 #install_npm_packages(packages_dict)
-reference_errors_handler(log)
+#reference_errors_handler(log)
