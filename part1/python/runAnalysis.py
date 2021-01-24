@@ -47,3 +47,5 @@ for source_path in filtered_paths:
     ShCommand(run_command_babel, logger, "Shell_Runner", 30).run()
 
 print('Analysis complete!')
+
+# node --no-deprecation ../jalangi2/src/js/commands/jalangi.js + source_path
