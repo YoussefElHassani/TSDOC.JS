@@ -7,7 +7,7 @@ from itertools import chain
 from collections import Counter
 from error_graph import construct_graph, draw_graph, preprocess_graph
 
-path = './log/info_babel.log'
+path = './log/info.log'
 
 log_data= []
 with open(path) as log_file:
@@ -22,6 +22,9 @@ success_count = 0
 error_dict = {}
 # Initialiring error messages dictionary
 error_messages = {}
+
+# Successful dir runtime info
+success_files = []
 
 log = {}
 # pass data to log dictionary
@@ -66,6 +69,7 @@ for file_name, file_dict in log.items():
             error_dict[error_name] += 1
     else: 
         success_count += 1
+        success_files.append(file_name.rsplit('/', 1)[0])
 
 # Write error dict to a file
 with open('./log/log_analysis_babel.json', 'w') as fp:
@@ -73,11 +77,18 @@ with open('./log/log_analysis_babel.json', 'w') as fp:
     
 print("Total number of errors: " + str(error_count))
 print("Total number of successes: " + str(success_count))
-
+"""
 # Draw graphs per error message
 for error_name, messages in error_messages.items():
     graph = construct_graph(messages)
     graph = preprocess_graph(graph, threshold = 0)
     title = error_name
     draw_graph(graph, title)
+"""
+
+success_files = list(dict.fromkeys(success_files))
+
+for file_ in success_files:
+    print(file_)
     
+print(len(success_files))

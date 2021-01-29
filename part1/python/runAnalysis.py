@@ -8,12 +8,12 @@ import sys
 import os
 
 # Configuring logger
-logging.basicConfig(filename='./log/analysis.log')
+logging.basicConfig(filename='./log/analysis_readme_files.log')
 logger = logging.getLogger()
 
 # including Jalangi input
 jalangi_path = "../jalangi2/src/js/commands/jalangi.js"
-analysis_path = "src/js/error_analysis.js"
+analysis_path = "part1/js/error_analysis.js"
 # source files root folder
 root = '../test-code'
 #root = '../dts-generate-results/results/test'

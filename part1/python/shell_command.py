@@ -38,11 +38,11 @@ class ShCommand:
         self.logger.info("%s: pid: %s", self.log_prefix, self.process.pid)
         self.stdout, self.stderr = self.process.communicate()
         if self.process.returncode != 0:
-            self.logger.error("%s: Command with pid %s done with return code: %s",
-                    self.log_prefix, self.process.pid, self.process.returncode)
+            self.logger.error("%s: Command with pid %s done with return code: %s, error: %s",
+                    self.log_prefix, self.process.pid, self.process.returncode, self.stderr)
         else:
-            self.logger.info("%s: Command with pid %s done with return code: %s",
-                    self.log_prefix, self.process.pid, self.process.returncode)
+            self.logger.info("%s: Command with pid %s done with return code: %s, error: %s",
+                    self.log_prefix, self.process.pid, self.process.returncode, self.stderr)
 
     def run(self):
         thread = threading.Thread(target=self.target)
