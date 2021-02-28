@@ -1,5 +1,5 @@
-x1 = 0
-x2 = 2
+const x1 = 0
+const x2 = 2
 
 function sum(a, b){
     return a+b

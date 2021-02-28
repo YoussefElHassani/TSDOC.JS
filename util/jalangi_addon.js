@@ -12451,9 +12451,21 @@ sandbox.utils.operatorInteractionBuilder = new OperatorInteractionBuilder();
       };
 
       this.endExecution = function() {
-          var json = JSON.stringify(sandbox.runTimeInfo, null, 4);
-          //myConsole.log(JSON.stringify(sandbox.runTimeInfo, null, 4));
-          fs.writeFileSync('./output.json',JSON.stringify(sandbox.runTimeInfo, null, 2));
+        const jsonString = fs.readFileSync('./package.json');
+        const npm_package = JSON.parse(jsonString);
+        for(var key in sandbox.runTimeInfo){
+          value = sandbox.runTimeInfo[key]
+          if(value.requiredModule.startsWith('.')){
+            try {
+              sandbox.runTimeInfo[key].requiredModule = npm_package.name
+            } catch(err) {
+              console.log(err);
+              return
+            }
+          }
+        }
+        //myConsole.log(JSON.stringify(sandbox.runTimeInfo, null, 4));
+        fs.writeFileSync('../../runtime_information_files/'+ npm_package.name +'/output.json',JSON.stringify(sandbox.runTimeInfo, null, 2));
       };
   }
 
