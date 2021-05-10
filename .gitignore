@@ -10,3 +10,6 @@ test.msp
 *.xml
 *.log
 
+.DS_Store
+.ipynb_checkpoints/test-checkpoint.ipynb
+get-pip.py
